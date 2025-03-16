@@ -1,3 +1,7 @@
+
+import subprocess
+subprocess.run(["pip", "install", "yfinance", "pandas", "numpy", "scikit-learn", "scipy", "nltk", "requests", "ccxt"])
+import yfinance as yf
 import streamlit as st
 import yfinance as yf
 import pandas as pd
